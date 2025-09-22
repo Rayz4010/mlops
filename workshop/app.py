@@ -21,3 +21,9 @@ if st.button("Predict"):
             st.write(f'with that {weight} dont eat pizza; you fat pig  go to the gym')
     else:
         st.write("Please enter all the fields")
+ 
+ 
+'''
+ To run this app usr the command below
+ '''       
+#streamlit run /Users/rayquaza/Desktop/mlops/workshop/app.py
