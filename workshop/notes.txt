@@ -1,0 +1,11 @@
+AI-> MAchine Learning-> Deep Learning-> GenAI-> LLM
+
+
+**
+Types of deep Learning
+ANN (deals with tabular data)
+CNN (deals with image/video data)
+RNN (deals with sequential/textual data)
+GAN (generates new data)[doesnt replace human creativity]
+**
+
