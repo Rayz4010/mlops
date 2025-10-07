@@ -40,6 +40,7 @@ st.markdown("You selected the project:")
 
 
 if op=="iris":
+    st.write(f"You selected: {op}")
     load()
     petal_length=st.number_input("Enter the petal length")
     petal_width=st.number_input("Enter the petal width")
