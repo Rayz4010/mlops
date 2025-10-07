@@ -34,7 +34,11 @@ st.sidebar.header("Project Selection")
 st.sidebar.subheader(string)
 set={"iris", "house price"}
 op=st.sidebar.selectbox("Select a project",set )
-
+bt=st.button("Refresh")
+if bt:
+    with st.spinner('Refreshing...'):
+        time.sleep(2)
+    st.success('Refreshed!')
 
 st.markdown("You selected the project:")
 
@@ -73,8 +77,3 @@ else:
     
 
 
-bt=st.button("Refresh")
-if bt:
-    with st.spinner('Refreshing...'):
-        time.sleep(2)
-    st.success('Refreshed!')
